@@ -23,8 +23,8 @@
 					</li>
 
 					<li class="sidebar-item">
-						<a class="sidebar-link" href="pages-sign-in.html">
-							<i class="align-middle" data-feather="log-in"></i> <span class="align-middle">Sign In</span>
+						<a class="sidebar-link" href="formproduto.php">
+							<i class="align-middle bi bi-cup-hot-fill"></i> <span class="align-middle">Produto</span>
 						</a>
 					</li>
 
