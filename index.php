@@ -2,38 +2,26 @@
 <html lang="pt-br">
 
 <head>
-    <?php
-    include 'header.php';
-    ?>
-
+	<?php
+		include 'header.php';
+	?>
 <body>
-    <div class="wrapper">
+	<div class="wrapper">
+	<?php include 'menu.php' ?>
 
-        <?php
-        include 'menu.php';
-        ?>
-        <div class="main">
-        <?php
-        include 'top.php'; 
-        ?>
-        <?php
-        include 'body.php' 
-        ?>
+		<div class="main">
+        <?php include 'topo.php' ?>
 
+		<?php include 'corpo.php' ?>
 
+			<footer class="footer">
+            <?php include 'footer.php' ?>
+			</footer>
+		</div>
+	</div>
 
-            <footer class="footer">
-            <?php
-            include 'footer.php'; 
-            ?>
-            </footer>
-        </div>
-    </div>
-
-    <script src="js/app.js"></script>
+	<script src="js/app.js"></script>
 
 </body>
-
-</head>
 
 </html>
